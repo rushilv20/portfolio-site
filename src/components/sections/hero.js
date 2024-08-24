@@ -60,18 +60,15 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Rushil Vegada.</h2>;
+  const three = <h3 className="big-heading">CS Grad at NCSU</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I'm Rushil Vegada, a software engineer and developer with a passion for creating innovative
+        digital solutions in the realms of cloud computing and data analytics. Currently, I'm
+        dedicated to building accessible, user-centric products as a Teaching Assistant at North
+        Carolina State University, where I support the BUS 351 course in Business Analytics.
       </p>
     </>
   );
@@ -85,7 +82,7 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>
