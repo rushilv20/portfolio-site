@@ -61,25 +61,21 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Rushil Vegada.</h2>;
-  const three = <h3 className="big-heading">CS Grad at NCSU</h3>;
+  const three = <h3 className="big-heading">I create solutions for the web and beyond.</h3>;
   const four = (
     <>
       <p>
-        I'm Rushil Vegada, a software engineer and developer with a passion for creating innovative
-        digital solutions in the realms of cloud computing and data analytics. Currently, I'm
-        dedicated to building accessible, user-centric products as a Teaching Assistant at North
-        Carolina State University, where I support the BUS 351 course in Business Analytics.
+        As a software developer with a passion for cloud architecture, data engineering, and
+        full-stack development, I thrive on building systems that are not just functional but
+        transformative. Whether I'm streamlining complex workflows, architecting scalable cloud
+        infrastructures, or diving into machine learning, my goal is to push the boundaries of
+        what's possible in the digital space.
+      </p>
+      <p>
+        Sound too good to be true? Maybe I had a little help from ChatGPT—but hey, it’s just telling
+        it like it is. Stick around, and you'll see what I mean!
       </p>
     </>
-  );
-  const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
-      Check out my course!
-    </a>
   );
 
   const items = [one, two, three, four];

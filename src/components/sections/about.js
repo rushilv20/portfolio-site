@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'AWS', 'React.js', 'Node.js', 'Docker', 'Terraform'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +135,33 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Rushil and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! I'm Rushil, and my fascination with technology took off when I represented my
+              state in two national-level competitions and had the chance to see the actual code
+              behind India's first Mars rover. It was in that moment that I truly grasped the power
+              of high-level software and machine learning, cementing my path in Computer Science.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              Fast-forward to today, and I've had the privilege of working at{' '}
+              <a href="https://www.flybellair.com/">an aviation company</a>,{' '}
+              <a href="https://www.linkedin.com/in/rushilv20/details/experience/">my university</a>{' '}
+              {'('}Mentoring Students and building platforms{')'},{' '}
+              <a href="https://www.initialyze.com/">a digitech service company</a>, and{' '}
+              <a href="https://www.linkedin.com/in/rushilv20/details/experience/">
+                various startups
+              </a>
+              . I am currently pursuing my Master's in Computer Science from North Carolina State
+              University.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'll be graduating in December 2024 and am actively seeking full-time opportunities
+              where I can apply my skills and experience. If you're looking to hire someone with my
+              background, feel free to download my <a href="static/Resume.pdf">Resume</a> and get in
+              touch via <a href="mailto:rushilvegada@gmail.com">Email</a>.
             </p>
 
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>Here are a few technologies I've been working with recently:</p>
           </div>
 
           <ul className="skills-list">
