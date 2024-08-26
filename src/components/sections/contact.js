@@ -61,7 +61,7 @@ const Contact = () => {
 
       <p>
         I'm currently seeking full-time opportunities in Software Development, Cloud, or Data
-        Engineering/Analysis.{' '}
+        Engineering/Analysis starting from Jan 2025.{' '}
       </p>
       <p>
         Whether you're a recruiter or someone navigating the same journey, the best way to move

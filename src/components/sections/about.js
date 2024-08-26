@@ -157,7 +157,7 @@ const About = () => {
             <p>
               I'll be graduating in December 2024 and am actively seeking full-time opportunities
               where I can apply my skills and experience. If you're looking to hire someone with my
-              background, feel free to download my <a href="static/Resume.pdf">Resume</a> and get in
+              background, feel free to download my <a href="./resume.pdf">Resume</a> and get in
               touch via <a href="mailto:rushilvegada@gmail.com">Email</a>.
             </p>
 
